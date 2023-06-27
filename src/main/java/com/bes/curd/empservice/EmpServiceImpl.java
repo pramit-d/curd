@@ -16,9 +16,9 @@ public class EmpServiceImpl implements EmpService {
 	public EmpServiceImpl() {
 		// Mock Data
 		emplist = new ArrayList<Emp>();
-		emplist.add(new Emp("w1","Pramit K Dutta", "Kolkata", "8637316389"));
-		emplist.add(new Emp("w2","Debajyoti Banerjee", "Kolkata", "6745341287"));
-		emplist.add(new Emp("w3","Indradip Nath", "Bangalore", "7638569380"));
+		emplist.add(new Emp("w1","Test1", "Kolkata", "123456"));
+		emplist.add(new Emp("w2","Test2", "Kolkata", "7891234"));
+		emplist.add(new Emp("w3","Test3", "Bangalore", "7638569380"));
 	}
 
 	@Override
